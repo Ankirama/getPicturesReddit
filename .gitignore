@@ -1,0 +1,14 @@
+# optimized files
+__pycache__/
+*.py[cod]
+
+# specific folders
+NSFW/
+
+#specific files
+bot.py
+*.db
+
+# logs
+*.log
+logs/*.log
