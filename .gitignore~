@@ -1,9 +1,0 @@
-NSFW/*
-NSFW/
-bot.py
-*.log
-__pycache__/
-__pycache__/*
-*.db
-*.pyc
-logs/*.log

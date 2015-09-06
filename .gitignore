@@ -8,6 +8,7 @@ NSFW/
 #specific files
 bot.py
 *.db
+*~
 
 # logs
 *.log
