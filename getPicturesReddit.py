@@ -27,7 +27,7 @@ class PicturesReddit():
         self.rootDropbox = dropbox['root']
         self.submission = None
 
-        logging.basicConfig(filename='./logs/redditBot.log', format='%(asctime)s %(funcName)s %(levelname)-15s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
+        logging.basicConfig(filename='./logs/redditBot.log', format='%(asctime)s %(funcName)-20s %(levelname)-8s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
         if not utilsReddit.createFolder(self.rootFolder):
             self.rootFolder = './'
         try:
